@@ -1,0 +1,127 @@
+/* general style for the html page*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.pexels.com/photos/2847648/pexels-photo-2847648.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-size: cover;
+}
+/* styling the body header navigation bar */
+.nav-header {
+  text-align: center;
+  background-color: rgb(85, 169, 171);
+}
+.ul-header {
+  font-size: 20px;
+}
+.ul-header li {
+  display: inline-block;
+  font-family: sans-serif;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.item {
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 10px;
+  color: blue;
+}
+a:hover {
+  background-color: rgb(238, 23, 209);
+}
+/* styling the google part (google logo )*/
+.div-google {
+  text-align: center;
+  font-family: "Modak", serif;
+  margin-bottom: 1px;
+}
+.ul-div {
+  font-size: 110px;
+  font-style: oblique;
+  position: relative;
+  display: inline-block;
+}
+
+.ul-div li {
+  display: inline-block;
+  text-decoration: none;
+}
+.item-g {
+  color: darkblue;
+}
+
+.item-o {
+  color: yellowgreen;
+}
+#item-l {
+  color: black;
+}
+#item-e {
+  color: tomato;
+}
+/* styling the google search text area and buttons */
+#div-form {
+  text-align: center;
+  margin-top: opx;
+}
+.search {
+  padding-bottom: 1.2em;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+.search::placeholder {
+  text-align: center;
+  color: rgb(49, 153, 194);
+  text-justify: auto;
+}
+.google-b {
+  padding-left: 3em;
+  margin-right: 2em;
+  margin-left: 2em;
+  border-radius: 25%;
+  text-align: center;
+  color: blue;
+}
+/* styling the languages part */
+#div-lang {
+  text-align: center;
+  padding-right: 2em;
+}
+.lang {
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 15px;
+  margin: 2em;
+  color: rgb(63, 13, 179);
+}
+/* styling the different social media part*/
+.ul-media {
+  font-size: 10px;
+  font-style: oblique;
+  text-align: center;
+  border-radius: 50%;
+}
+.ul-media li {
+  display: inline-block;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 1.5em;
+  margin-bottom: 3em;
+}
+/*styling the footer and its navigation bar */
+.footer {
+  text-align: center;
+  background-color: rgb(85, 169, 171);
+}
+.ul-footer {
+  color: blue;
+  font-weight: 700;
+}
+.ul-footer li {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 3em;
+  margin-left: 2em;
+  margin-bottom: 0.5em;
+}
